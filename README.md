@@ -19,9 +19,6 @@ Current release: **1.0**
 
 If your code introduces new features, please add tests that cover them if possible and make sure that the existing test suite  still passes. If you're not sure how to write a test for a feature or have trouble with a test failure, please post on the google-groups with details and we will try to help. 
 
-### Maintainers
-Cyril Cherian
-Sunil Giri
 
 
 
