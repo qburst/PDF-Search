@@ -1,7 +1,7 @@
 #PDF-Search
 ==========
 
-An application which can be helpful for sharing books
+An application which can be helpful for sharing Ebooks
 
 
 ##Purpose
@@ -9,6 +9,8 @@ An application which can be helpful for sharing books
 The PDF Search is an application which allows users to upload PDF files to be indexed in SOLR and provides an AngularJS based UI to do a full text search. This can be used as central ebook library for individual use, organizations or groups . It supports  OpenID authentication based login. 
 
 Current release: **1.0**
+
+Technologies used : Jquery, Angular JS, Solr, Spring MVC, JopenId , D3.js
 
 ## Features
 
