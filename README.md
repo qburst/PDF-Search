@@ -14,6 +14,8 @@ Current release: **1.0**
 
 * Screen to upload pdf files
 * Search full text of the files in entire repository
+* OpenId based login, presently support yahoo & google
+* Visualization of the search results using D3 
 
 ## Notes for Contributors
 
