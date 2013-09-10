@@ -1,0 +1,20 @@
+<div class="modal-header">
+	<h2>PDF Meta Information</h2>
+</div>
+<div class="modal-body">
+	<label>Title: <span>{{item.title}}</span></label> 
+	<label>Uploaded By: <span>{{item.userDetails.fullname}}</span></label> 
+	<label>Author: <span>{{item.author}}</span></label> 
+	<table class="table">
+		<tr>
+			<th>Occurrences</th>
+		</tr>
+		<tr ng-repeat="highlight in item.highlights">
+			<td><span ng-bind-html-unsafe="highlight"></span></td>
+		</tr>
+	</table>
+	
+</div>
+<div class="modal-footer">
+	<button ng-click="close()" class="btn  btn-primary">close</button>
+</div>

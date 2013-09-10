@@ -1,0 +1,20 @@
+<div class="modal-header">
+	<h2>File Upload Status</h2>
+</div>
+<div class="modal-body upload-status">
+	<table class="table">
+		<tr>
+       		<th>File name</th>
+       		<th>Status</th>
+       		<th>Reason</th>
+       	</tr>
+		<tr ng-repeat="file in files">
+			<td>{{file.fileName}}</td>
+			<td>{{file.status}}</td>
+			<td>{{file.reason}}</td>
+		</tr>
+	</table>
+</div>
+<div class="modal-footer">
+	<button ng-click="close()" class="btn  btn-primary">close</button>
+</div>

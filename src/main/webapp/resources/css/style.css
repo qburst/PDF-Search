@@ -1,0 +1,155 @@
+/*style.css*/
+body {
+    overflow:hidden;
+    width: 90% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: white;
+	margin-top: -5px;
+}
+.search-text{
+	width : 50% !important;
+	margin : 5px !important;
+}
+.help-block{
+	margin:10px !important;
+}
+#search-btn{
+	width : 8% !important;	
+}
+.tab-content{
+	border: 1px solid #ddd;
+	width: 100%;
+	height: 360px !important;
+	border-top: 0px;
+	margin-top: -20px;
+}
+.tab-content div:nth-child(2){
+	margin-top: -12px;
+	fill: black;
+}
+.search-div{
+	text-align: center;
+	margin : 5px;
+	margin-top: 55px !important;
+}
+.search-div h1{
+	color : #4CAE4C;
+}
+.results-div, .myfiles-div{
+	display:none;
+	text-align: center;
+	width: 98% !important;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+}
+.myfiles-div{
+	display: block !important;
+}
+.results-div table th, .myfiles-div table th {
+	text-align: center !important;
+	border: 1px solid #C13A33 !important;
+}
+.results-div .title, .results-div .author, .myfiles-div .title, .myfiles-div .author {
+	text-align: left;
+}
+.results-div .action{
+	text-align: center !important;
+}
+.results-div table td, .myfiles-div table td{
+	border: 1px solid #C13A33 !important;
+}
+
+.svg_vis{
+	height: 360px !important;
+	max-height: 360px !important;
+	width: 1210px !important;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 12px;
+}
+/*.tab-pane{
+	height: 360px !important;
+	max-height: 360px !important;
+}*/
+
+.fileinput-button{
+	overflow: hidden;
+	max-width: 120px !important;
+	max-height: 20px !important;
+}
+.fileinput-button input {
+	opacity: 0;
+	position: relative;
+	width: 120px !important;
+	float: left;
+	left: 0px;
+	top: -20px;
+}
+#fileupload{
+	margin: 0px !important;
+	padding-top: 15px;	
+}
+.upload-bar{
+	text-align: center;
+	width: 98% !important;
+	margin-left: auto !important;
+	margin-right: auto;
+}
+.upload-bar div{
+	padding-top: 10px !important;
+}
+.upload-table-div {
+	overflow-y: auto;
+	height: 270px !important;
+}
+.upload-table-div table th{
+	text-align: center;
+	border: 1px solid #C13A33 !important;
+}
+.upload-table-div table td{
+	text-align: center!important;
+	border: 1px solid #C13A33 !important;
+}
+.upload-table-div .item-name{
+	text-align: left !important;
+}
+.modal-header h2{
+	text-align: center;
+	color: #51A351;
+}
+.modal-body label{
+	color: #C13A33;
+	font-weight: bold;
+	font-size: 17px;
+}
+.modal-body label span{
+	color: black;
+	font-weight: normal;
+	font-size: 14px;
+}
+.modal-body table th{
+	color: #51a351;
+	font-size: 17px;
+}
+.upload-status table td {
+	border: 1px solid #dddddd !important;
+} 
+.upload-status table th{
+	color: #C13A33 !important;
+}
+.modal-body table{
+	border: 2px solid #389FBD;
+}
+.limit-alert{
+	margin-top: 15px;
+}
+.progress-monitor img{
+	position : absolute;
+	top : 25%;
+	left : 38%;
+}
+.progress-monitor div{
+	text-align : center;
+}
