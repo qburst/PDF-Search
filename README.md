@@ -1,4 +1,4 @@
-#PDF-Search
+#PDF-Library  Solr and Angular JS
 ==========
 
 An application which can be helpful for sharing Ebooks
